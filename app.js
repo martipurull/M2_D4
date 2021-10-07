@@ -13,6 +13,7 @@ const addNameToList = function () {
     newMemberOnList.innerText = inputName.value
     listOfNames.appendChild(newMemberOnList)
     inputName.value = ''
+    inputName.focus()
 }
 
 const setNumberOfTeams = function () {
@@ -39,6 +40,7 @@ const setNumberOfTeams = function () {
         removeButton.innerText = 'Remove Last Member'
         removeButton.classList.add('btn-sm')
         removeButton.classList.add('btn-danger')
+        removeButton.classList.add('mt-3')
         removeButton.addEventListener('click', function () {
             teamList.removeChild(teamList.lastChild)
         })
