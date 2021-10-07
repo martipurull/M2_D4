@@ -1,0 +1,17 @@
+   body {
+      font-family: 'Ubuntu', sans-serif;
+      background-color: #bfc0c0;
+    }
+
+    h1 {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,93,117,1) 46%, rgba(239,131,84,1) 100%);
+    }
+
+    .btn-success {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,93,117,1) 46%, rgba(239,131,84,1) 100%);
+        border: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }

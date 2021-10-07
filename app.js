@@ -42,6 +42,7 @@ const setNumberOfTeams = function () {
         removeButton.classList.add('btn-danger')
         removeButton.classList.add('mt-3')
         removeButton.addEventListener('click', function () {
+            addedNames.push(teamList.lastChild.innerText)
             teamList.removeChild(teamList.lastChild)
         })
         individualTeamDiv.appendChild(removeButton)
