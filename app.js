@@ -65,6 +65,6 @@ const assignMembersToTeams = function () {
     }
 }
 
-const removeMemberFromTeam = function () {
-
+const resetApp = function () {
+    window.location.reload()
 }
