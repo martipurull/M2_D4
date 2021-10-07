@@ -24,7 +24,7 @@ const setNumberOfTeams = function () {
     teamNumContainer.appendChild(teamListsContainer)
     for (let i = 0; i < numberOfTeams; i++) {
         let individualTeamDiv = document.createElement('div')
-        individualTeamDiv.classList.add('col-6')
+        individualTeamDiv.classList.add(`col-${ Math.floor(12 / numberOfTeams) }`)
         teamListsContainer.appendChild(individualTeamDiv)
         let teamName = document.createElement('p')
         teamName.innerText = `Team ${ i + 1 }`
